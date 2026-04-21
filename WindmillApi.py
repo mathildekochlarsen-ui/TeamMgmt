@@ -16,7 +16,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Mathilde24",
+        password="PASSWORD",
         database="windmill",
         auth_plugin="mysql_native_password"
     )
